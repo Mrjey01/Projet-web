@@ -1,0 +1,3 @@
+[build]
+builder = "NIXPACKS"
+php_version = "8.1"  # Remplace par la version que tu souhaites utiliser
