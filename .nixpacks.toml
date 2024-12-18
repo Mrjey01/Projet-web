@@ -2,5 +2,5 @@
 builder = "NIXPACKS"
 
 [deploy]
-runtime = "php"
+runtime = "V2"
 startCommand = "php -S 0.0.0.0:$PORT PHPpage.php"
