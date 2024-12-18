@@ -1,8 +1,7 @@
-[phases]
-build = """
-echo 'Pas de phase de build nécessaire'
-"""
+[build]
+builder = "NIXPACKS"
 
-start = """
-php -S 0.0.0.0:3000 PHPpage.php
-"""
+[deploy]
+runtime = "PHP"
+startCommand = "php -S 0.0.0.0:8080 PHPpage.php"
+
