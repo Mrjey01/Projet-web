@@ -4,7 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "php -S 0.0.0.0:3000 PHPpage.php",
-    "port": 3000
+    "startCommand": "php -S 0.0.0.0:80 PHPpage.php"
   }
 }
