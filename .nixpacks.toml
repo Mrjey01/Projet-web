@@ -1,0 +1,8 @@
+[phases]
+build = """
+echo 'Pas de phase de build nécessaire'
+"""
+
+start = """
+php -S 0.0.0.0:3000 PHPpage.php
+"""
