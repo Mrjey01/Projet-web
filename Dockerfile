@@ -6,8 +6,8 @@ WORKDIR /app
 # Copier le code source dans le conteneur
 COPY . .
 
-# Exposer le port (par exemple, 8080 pour PHP built-in server)
+# Exposer le port dynamique (Railway peut utiliser un autre port)
 EXPOSE 8080
 
-# Commande pour démarrer l'application
-CMD ["php", "-S", "0.0.0.0:8080", "PHPpage.php"]
+# Utiliser la variable d'environnement $PORT ou 8080 par défaut
+CMD ["php", "-S", "0.0.0.0:${PORT:-8080}", "PHPpage.php"]
