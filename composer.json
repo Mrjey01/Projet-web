@@ -3,17 +3,8 @@
   "description": "Un projet PHP pour Railway",
   "type": "project",
   "require": {
-    "php": "^7.4 || ^8.0",
-    "monolog/monolog": "^2.0",
-    "vlucas/phpdotenv": "^5.2"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
-    }
-  },
-  "scripts": {
-    "setup-env": "php -r \"copy('.env.example', '.env');\""
+    "php": "^7.4 || ^8.2",
+    "monolog/monolog": "^2.0"
   },
   "minimum-stability": "stable",
   "license": "MIT"
