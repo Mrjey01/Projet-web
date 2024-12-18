@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "runtime": "php",
-    "startCommand": "php -S 0.0.0.0:$PORT PHPpage.php"
+    "runtime": "V2",
+    "startCommand": "php -S 0.0.0.0:${PORT:-6000} PHPpage.php"
   }
 }
