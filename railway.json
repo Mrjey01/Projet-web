@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "runtime": "php",
-    "startCommand": "hp -S 0.0.0.0:6000 PHPpage.php"
+    "runtime": "V2",
+    "startCommand": "php -S 0.0.0.0:6000 PHPpage.php"
   }
 }
