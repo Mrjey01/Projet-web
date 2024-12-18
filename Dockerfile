@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE $PORT
 
-CMD ["php", "-S", "0.0.0.0:6000", "PHPpage.php"]
+CMD ["php", "-S", "0.0.0.0:$PORT", "PHPpage.php"]
