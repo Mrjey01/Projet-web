@@ -4,6 +4,6 @@
   },
   "deploy": {
     "runtime": "php",
-    "startCommand": "php -S 0.0.0.0:$PORT PHPpage.php"
+    "startCommand": "hp -S 0.0.0.0:6000 PHPpage.php"
   }
 }
